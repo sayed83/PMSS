@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="382c91cc632149a1afaffd8ff8181fa4" Name="Diagram1" ZoomLevel="109">
+        <EntityTypeShape EntityType="PmsmvcDBModel.Appointment" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Bill" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Doctor" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Hospital" Width="1.5" PointX="8.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Patient" Width="1.5" PointX="6" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Qualification" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Room" Width="1.5" PointX="3.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.RoomCategory" Width="1.5" PointX="1.5" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Schedule" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Speciality" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Staff" Width="1.5" PointX="6" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.Treatment" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PmsmvcDBModel.TreatmentDetial" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Appointme__Docto__19AACF41" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Bill__PatientID__793DFFAF" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Bill__StaffID__7A3223E8" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Doctor__Qualific__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Doctor__Speciali__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Schedule__Doctor__2EA5EC27" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Treatment__Docto__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Patient__RoomID__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Treatment__Patie__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Room__RoomCatego__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="PmsmvcDBModel.FK__Treatment__Treat__74AE54BC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

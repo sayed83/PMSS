@@ -1,0 +1,155 @@
+﻿@model IEnumerable<PMSMVC.Models.TreatmentDetial>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section Assets
+{
+    <script src="~/assets/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/jquery.dataTables.bootstrap.min.js"></script>
+    <script src="~/assets/js/dataTables.buttons.min.js"></script>
+    <script src="~/assets/js/buttons.flash.min.js"></script>
+    <script src="~/assets/js/buttons.html5.min.js"></script>
+    <script src="~/assets/js/buttons.print.min.js"></script>
+    <script src="~/assets/js/buttons.colVis.min.js"></script>
+    <script src="~/assets/js/dataTables.select.min.js"></script>
+    <script src="~/assets/js/jquery-ui.min.js"></script>
+    <script src="~/assets/js/jquery.ui.touch-punch.min.js"></script>
+}
+
+@section CustomJS
+{
+    <script src="~/assets/js/TreatmentDetails-DataTable.js"></script>
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h3 class="header smaller lighter blue">Treatment List</h3>
+
+        <div class="clearfix">
+            <div class="pull-left">
+                <a href="@Url.Action("Create","TreatmentDetial")" class="btn btn-link">
+                    <i class="ace-icon fa fa-plus-circle bigger-120 green"></i> Write Patient Treatment Details
+                </a>
+            </div>
+            <div class="pull-right tableTools-container"></div>
+        </div>
+        <div class="table-header">
+            Results for "Treatment Details"
+        </div>
+
+        <!-- div.table-responsive -->
+        <!-- div.dataTables_borderWrap -->
+        <div>
+            <table id="treatdt-table" class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th class="center">
+                            <label class="pos-rel">
+                                <input type="checkbox" class="ace" />
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th>
+                            Treatments Name
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Patient ID
+                        </th>
+                        <th>
+                            Doctor ID
+                        </th>
+                        <th>Discharge</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="center">
+                                <label class="pos-rel">
+                                    <input type="checkbox" class="ace" />
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Treatment.TreatmentName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Patient.PatCardID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor.DoctorCardID)
+                            </td>
+                            <td align="center">
+                                <button  type="button" class="btn btn-danger btn-discharge"><i class="ace-icon fa fa-trash-o bigger-130"></i> Discharge</button>
+                            </td>
+
+                            <td>
+                                <div class="hidden-sm hidden-xs action-buttons">
+                                    <a class="blue" href="@Url.Action("Details", "TreatmentDetial", new { id=item.TreatmentDetailID})">
+                                        <i class="ace-icon fa fa-search-plus bigger-130"></i>
+                                    </a>
+
+                                    <a class="green" href="@Url.Action("Edit","TreatmentDetial", new { id=item.TreatmentDetailID})">
+                                        <i class="ace-icon fa fa-pencil bigger-130"></i>
+                                    </a>
+                                    <a class="red" href="@Url.Action("Delete","TreatmentDetial", new { id=item.TreatmentDetailID})">
+                                        <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                    </a>
+                                </div>
+
+                                <div class="hidden-md hidden-lg">
+                                    <div class="inline pos-rel">
+                                        <button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                            <i class="ace-icon fa fa-caret-down icon-only bigger-120"></i>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                            <li>
+                                                <a href="@Url.Action("Details", "TreatmentDetial", new { id=item.TreatmentDetailID})" class="tooltip-info" data-rel="tooltip" title="View">
+                                                    <span class="blue">
+                                                        <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="@Url.Action("Edit","TreatmentDetial", new { id=item.TreatmentDetailID})" class="tooltip-success" data-rel="tooltip" title="Edit">
+                                                    <span class="green">
+                                                        <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="@Url.Action("Delete","TreatmentDetial", new { id=item.TreatmentDetailID})" class="tooltip-error" data-rel="tooltip" title="Delete">
+                                                    <span class="red">
+                                                        <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

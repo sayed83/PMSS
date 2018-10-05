@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+       <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+            <img class="nav-user-photo" src="~/assets/images/avatars/user.jpg" alt="Jason's Photo" />
+            <span class="user-info" style="text-transform:capitalize;">
+                <small>Welcome</small>
+                @User.Identity.GetUserName()
+            </span>
+
+            <i class="ace-icon fa fa-caret-down"></i>
+        </a>
+   
+        <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class= "ddli-box" }))
+        {
+            @Html.AntiForgeryToken()
+            <li>
+                <a href="@Url.Action("Index", "Role")">
+                    <i class="ace-icon fa fa-cog"></i>
+                    Manage Roles
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="ace-icon fa fa-user"></i>
+                    Profile
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            <li>
+                <a href="javascript:document.getElementById('logoutForm').submit()">
+                    <i class="ace-icon fa fa-power-off"></i>
+                    Logout
+                </a>
+            </li>
+        }
+        </ul>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right marginless-nav">
+        <li><a id="registerLink" href="@Url.Action("Register", "Account",routeValues: null)"><i class="fa fa-user-plus"></i> Register</a></li>
+        <li><a id="loginLink" href="@Url.Action("Login", "Account", routeValues: null)"><i class="fa fa-sign-in"></i> Log in</a></li>
+    </ul>
+}
+
+
+
+
+

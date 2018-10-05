@@ -1,0 +1,70 @@
+﻿.add-patient-form {
+    width: 100%;
+    display: table;
+    padding: 0 30px;
+    margin: 15px 0;
+}
+.ddli-box>li {
+    line-height: 30px;
+}
+.ddli-box>li>a {
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+}
+.ddli-box>li>a:hover {
+    text-decoration:none;
+    background:#fff1a5;
+}
+.process-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.upload-box {
+    position: relative;
+    height: 40px;
+    width: 200px;
+    overflow:hidden
+}
+.upload-icon {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #666;
+    line-height: 40px;
+    color: #ffffff;
+    pointer-events: none;
+}
+.image-file {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.success-save {
+    position: fixed;
+    top: 50px;
+    width: 50%;
+    display:none;
+}
+.btn {
+    padding: 5px 10px !important;
+    border-radius: 1px !important;
+    border: none !important;
+}
+.modal-body>h4 {
+    text-align: center;
+    margin: 40px 0;
+}
+.reject-link {
+    color:#ff0000 !important;
+    background:none !important;
+    padding: 4px 12px !important;
+    line-height: 20px !important;
+    text-shadow:none;
+}
+.reject-link:hover {
+    background:none !important;
+}

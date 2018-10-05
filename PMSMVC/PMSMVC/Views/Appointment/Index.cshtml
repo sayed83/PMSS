@@ -1,0 +1,237 @@
+﻿@model IEnumerable<PMSMVC.Models.Appointment>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section Assets
+{
+    <script src="~/assets/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/jquery.dataTables.bootstrap.min.js"></script>
+    <script src="~/assets/js/dataTables.buttons.min.js"></script>
+    <script src="~/assets/js/buttons.flash.min.js"></script>
+    <script src="~/assets/js/buttons.html5.min.js"></script>
+    <script src="~/assets/js/buttons.print.min.js"></script>
+    <script src="~/assets/js/buttons.colVis.min.js"></script>
+    <script src="~/assets/js/dataTables.select.min.js"></script>
+    <script src="~/assets/js/jquery-ui.min.js"></script>
+    <script src="~/assets/js/jquery.ui.touch-punch.min.js"></script>
+}
+
+@section CustomJS
+{
+    <script src="~/assets/js/appoint-table.js"></script>
+
+    <script>
+            var ApprovalByStaff = function (approvalID) {
+                $('#apntmentID').val(approvalID);
+                $('#modal-table').modal('show');
+            }
+
+            var ApproveAppointment = function () {
+                $('#loaderDiv').show();
+                var apntId = $('#apntmentID').val();
+                $.ajax({
+                    url: "Patient/ApprovedAppointment",
+                    type: "POST",
+                    data: { AppointmentID : apntId },
+                    success: function (result) {
+                        $('#loaderDiv').hide(1000);
+                        $('#modal-table').modal('hide');
+                        $('#row_' + apntId).remove();
+                    }
+                });
+            }
+
+            var RejectAppointment = function () {
+                $('#loaderDiv').show();
+                var apntId = $('#apntmentID').val();
+                $.ajax({
+                    url: "Patient/RejectAppointment",
+                    type: "POST",
+                    data: { AppointmentID: apntId },
+                    success: function (result) {
+                        $('#loaderDiv').hide(1000);
+                        $('#modal-table').modal('hide');
+                        $('#row_' + apntId).remove();
+                    }
+                });
+            }
+       
+    </script>
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h3 class="header smaller lighter blue">Pending Appointment List</h3>
+
+        <div class="clearfix">
+            <div class="pull-left">
+                <a href="@Url.Action("GetApprovedAppnmnt", "Appointment")" class="btn btn-link">
+                    <i class="ace-icon fa fa-calendar bigger-120 green"></i> View Approved Appointment
+                </a>
+                <a href="@Url.Action("GetRejectAppointment", "Appointment")" class="btn reject-link">
+                    <i class="ace-icon fa fa-calendar bigger-120 green"></i> View Rejected Appointment
+                </a>
+            </div>
+            <div class="pull-right tableTools-container"></div>
+        </div>
+        <div class="table-header">
+            Results for "Pending Appointment for Doctors"
+        </div>
+
+        <!-- div.table-responsive -->
+        <!-- div.dataTables_borderWrap -->
+        <div>
+            <table id="apoint-table" class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th class="center">
+                            <label class="pos-rel">
+                                <input type="checkbox" class="ace" />
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                           Contact Number
+                        </th>
+                        <th class="hidden-480">
+                            Payment
+                        </th>
+
+                        <th>
+                            Appointment Date
+                        </th>
+                        <th>
+                            Doctor ID
+                        </th>
+                        <th>
+                           Doctor Name
+                        </th>
+                        <th class="hidden-480">
+                            Status
+                        </th>
+
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.AppoinmentID">
+                            <td class="center">
+                                <label class="pos-rel">
+                                    <input type="checkbox" class="ace" />
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApmntName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApmntPhone)
+                            </td>
+                            <td class="hidden-480">
+                                @Html.DisplayFor(modelItem => item.ApmntPayment)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApmntDate)
+                            </td>
+                            <td class="hidden-480">
+                                <span class="label label-sm label-warning">
+                                    @Html.DisplayFor(modelItem => item.Doctor.DoctorCardID)
+                                </span>
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor.DoctorName)
+                            </td>
+                            <td>
+                                <a id="id-btn-dialog2" class="red" href="#" onclick="ApprovalByStaff(@item.AppoinmentID)">
+                                    
+                                    @if (item.Approved == true)
+                                    {
+                                        <span class="label label-info arrowed-in arrowed-in-right">
+                                            Approved
+                                        </span>
+                                    }
+                                    else if(item.Approved==false)
+                                    {
+                                        <span class="label label-warning">
+                                            Rejected
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span>Pending</span>
+                                    }
+                                </a>
+                                <input type="hidden" id="apntmentID"/>
+                            </td>
+
+                            <td>
+                                <div class="hidden-sm hidden-xs action-buttons">
+                                    <a class="blue" href="@Url.Action("Details", "Doctor", new { id=item.AppoinmentID})">
+                                        <i class="ace-icon fa fa-search-plus bigger-130"></i>
+                                    </a>
+
+                                </div>
+
+                                <div class="hidden-md hidden-lg">
+                                    <div class="inline pos-rel">
+                                        <button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                            <i class="ace-icon fa fa-caret-down icon-only bigger-120"></i>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                            <li>
+                                                <a href="@Url.Action("Details", "Appointment", new { id=item.AppoinmentID})" class="tooltip-info" data-rel="tooltip" title="View">
+                                                    <span class="blue">
+                                                        <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>S
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--Modal-->
+<div id="modal-table" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header no-padding">
+                <div class="table-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        <span class="white">&times;</span>
+                    </button>
+                    Appointment Approval
+                </div>
+            </div>
+
+            <div class="modal-body no-padding">
+                <h4>Are you check the payment staus for this <strong style="color:red">Appointment?</strong></h4>
+                <div style="text-align:center; display:none" id="loaderDiv">
+                    <img src="~/Content/ajax-loader.gif" width="50" />
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-danger" onclick="RejectAppointment()" id="btnReject">Reject</a>
+                <a class="btn btn-info" onclick="ApproveAppointment();" id="btnApproved">Approve</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>

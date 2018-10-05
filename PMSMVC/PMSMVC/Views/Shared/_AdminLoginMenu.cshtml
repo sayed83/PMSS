@@ -1,0 +1,307 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+    {
+            <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+                <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+                    <button class="btn btn-success">
+                        <i class="ace-icon fa fa-signal"></i>
+                    </button>
+
+                    <button class="btn btn-info">
+                        <i class="ace-icon fa fa-pencil"></i>
+                    </button>
+
+                    <button class="btn btn-warning">
+                        <i class="ace-icon fa fa-users"></i>
+                    </button>
+
+                    <a href="@Url.Action("Index","Role")" class="btn btn-danger">
+                        <i class="ace-icon fa fa-cogs"></i>
+                    </a>
+                </div>
+
+                <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+                    <span class="btn btn-success"></span>
+
+                    <span class="btn btn-info"></span>
+
+                    <span class="btn btn-warning"></span>
+
+                    <span class="btn btn-danger"></span>
+                </div>
+            </div><!-- /.sidebar-shortcuts -->
+
+            <ul class="nav nav-list">
+                <li class="">
+                    <a href="@Url.Action("Index", "AdminHome")">
+                        <i class="menu-icon fa fa-tachometer"></i>
+                        <span class="menu-text"> Dashboard </span>
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <!--Administration Menu Start-->
+                @if (HttpContext.Current.User.IsInRole("Administrator"))
+                {
+                    <li class="">
+                        <a href="@Url.Action("Index","Patient")">
+                            <i class="menu-icon fa fa-bed" aria-hidden="true"></i>
+                            <span class="menu-text">
+                                Patients
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Doctor")">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                                Doctors
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index","Staff")">
+                            <i class="menu-icon fa fa-users"></i>
+                            <span class="menu-text">
+                                Executives
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Room")">
+                            <i class="menu-icon fa fa-building"></i>
+                            <span class="menu-text">Rooms</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "RoomCategory")">
+                            <i class="menu-icon fa fa-university"></i>
+                            <span class="menu-text">Room Category</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Bill")">
+                            <i class="menu-icon fa fa-file-text"></i>
+                            <span class="menu-text">Make Bill</span>
+                        </a>
+                    </li>
+                }
+                <!--Administration Menu End-->
+
+                <!--Doctor Menu Start-->
+                @if (HttpContext.Current.User.IsInRole("Doctor"))
+                {
+                    <li class="">
+                        <a href="@Url.Action("Index","Patient")">
+                            <i class="menu-icon fa fa-bed" aria-hidden="true"></i>
+                            <span class="menu-text">
+                                Patients
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Treatment")">
+                            <i class="menu-icon fa fa-slack"></i>
+                            <span class="menu-text">Treatments</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "TreatmentDetial")">
+                            <i class="menu-icon fa fa-align-left"></i>
+                            <span class="menu-text">Treatment Details</span>
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a href="@Url.Action("Details", "Doctor")">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                                Profile
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Doctor")">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                                Daily Appoinment
+                            </span>
+                        </a>
+                    </li>
+                }
+                <!--Doctor Menu End-->
+
+                <!--Appointment Executive Menu Start-->
+                @if (HttpContext.Current.User.IsInRole("Appointment Executive"))
+                {
+                    <li class="">
+                        <a href="@Url.Action("Index", "Doctor")">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                                Doctor Schedule
+                            </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Appointment")">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                               Appointments
+                            </span>
+                        </a>
+                    </li>
+                }
+                <!--Appointment Executive Menu End-->
+
+                <!--Bill Executive Menu Start-->
+                @if (HttpContext.Current.User.IsInRole("Cash Executive"))
+                {
+                    <li class="">
+                        <a href="@Url.Action("Index", "Bill")">
+                            <i class="menu-icon fa fa-file-text"></i>
+                            <span class="menu-text">Make Bill</span>
+                        </a>
+                    </li>
+                }
+                <!--Bill Executive Menu End-->
+
+                <!--Registrar Executive Menu Start-->
+                @if (HttpContext.Current.User.IsInRole("Executive"))
+                {
+                    <li class="">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-bed" aria-hidden="true"></i>
+                            <span class="menu-text">
+                                Patients
+                            </span>
+
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+
+                        <b class="arrow"></b>
+
+                        <ul class="submenu">
+                            <li class="">
+                                <a href="@Url.Action("Create","Patient")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+
+                                    Add Patient
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="@Url.Action("Index","Patient")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    View Patients
+                                </a>
+
+                                <b class="arrow"></b>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-user-md"></i>
+                            <span class="menu-text">
+                                Doctors
+                            </span>
+
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+
+                        <b class="arrow"></b>
+
+                        <ul class="submenu">
+                            <li class="">
+                                <a href="@Url.Action("Create","Doctor")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    Add Doctor
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="@Url.Action("Index", "Doctor")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    View Doctors
+                                </a>
+
+                                <b class="arrow"></b>
+                            </li>
+                            <li class="">
+                                <a href="@Url.Action("Index", "Speciality")">
+                                    <i class="menu-icon fa fa-pie-chart"></i>
+                                    Speciality
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="@Url.Action("Index", "Qualification")">
+                                    <i class="menu-icon fa fa-graduation-cap"></i>
+                                    Qualifications
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-users"></i>
+                            <span class="menu-text">
+                                Executives
+                            </span>
+
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+
+                        <b class="arrow"></b>
+
+                        <ul class="submenu">
+                            <li class="">
+                                <a href="@Url.Action("Create", "Staff")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    Add Executive
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="@Url.Action("Index","Staff")">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    View Executive
+                                </a>
+
+                                <b class="arrow"></b>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a href="@Url.Action("Index", "Room")">
+                            <i class="menu-icon fa fa-building"></i>
+                            <span class="menu-text">Rooms</span>
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a href="@Url.Action("Index", "RoomCategory")">
+                            <i class="menu-icon fa fa-university"></i>
+                            <span class="menu-text">Room Category</span>
+                        </a>
+                    </li>
+                }
+                <!--Registrar Executive Menu End-->
+                <li class="">
+                    <a href="@Url.Action("ChangePassword","Manage")">
+                        <i class="menu-icon fa fa-list-alt"></i>
+                        <span class="menu-text">Change Password</span>
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+            </ul><!-- /.nav-list -->
+    }
+}
+else
+{
+    Response.Redirect("~/Account/Login");
+}
+
+

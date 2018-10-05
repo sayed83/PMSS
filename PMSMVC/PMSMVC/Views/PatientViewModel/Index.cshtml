@@ -1,0 +1,134 @@
+﻿@model PMSMVC.ViewModels.PatientVm
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    List<SelectListItem> Gender = new List<SelectListItem>();
+    Gender.Add(new SelectListItem
+    {
+        Text = "Male",
+        Value = "Male"
+    });
+    Gender.Add(new SelectListItem
+    {
+        Text = "Female",
+        Value = "Female"
+    });
+    Gender.Add(new SelectListItem
+    {
+        Text = "Others",
+        Value = "Others"
+    });
+}
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#RoomcatID").change(function () {
+                $.getJSON("/PatientViewModel/GetRoomNo", { categoryID: $("#RoomcatID").val() }, function (data) {
+                    $('#RoomID').empty();
+                    $.each(data, function (index, row) {
+                        if (data) {
+                            $('#RoomID').append("<option value='" + row.RoomID + "'>" + row.RoomNO + "</option>");
+                        } else {
+                            $('#RoomID').append("<option>No Room Available</option>");
+                        }
+
+                    });
+                });
+            });
+
+
+            $('#patientSaveBtn').click(function (e) {
+                e.preventDefault();
+                var data = $('#patientForm').serialize();
+
+                $.ajax({
+                    type:"POST",
+                    url: "/PatientViewModel/SavePatient",
+                    data: data,
+                    success: function (result) {
+                        $('#patientForm').trigger("reset");//form reset after submiting
+                        $('#show-success').slideDown();
+                    }
+                });
+                console.log(data);
+
+            });
+
+
+
+
+        });
+    </script>
+}
+    <div class="row">
+        <form id="patientForm" method="post">
+            <div class="form-group">
+                <label class="control-label col-md-2">Patient Name</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PatientName, new { @class = "form-control docsearch-field" })
+                    @Html.ValidationMessageFor(model => model.PatientName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Age</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Age, new { @class = "form-control docsearch-field" })
+                    @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Gender</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.Gender, Gender, new { @class = "form-control docsearch-field" })
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Contact Number</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ContactNumber, new { @class = "form-control docsearch-field" })
+                    @Html.ValidationMessageFor(model => model.ContactNumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Room Category</label>
+                <div class="col-md-10">
+                    @if (ViewBag.CategoryList != null)
+                    {
+                        @Html.DropDownListFor(model => model.RoomCategoryID, ViewBag.CategoryList as SelectList, "---Select Room Category---", new { @id = "RoomcatID", @class = "form-control docsearch-field" })
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Room Number</label>
+                <div class="col-md-10">
+                    @Html.HiddenFor(model => model.RoomCategory1)
+                    @Html.DropDownListFor(model => model.RoomID, new SelectList(" "), "---Select Room---", new { @id = "RoomID", @class = "form-control docsearch-field" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10 col-md-offset-2">
+                    <input id="patientSaveBtn" type="submit" class="btn btn-info" />
+                </div>
+            </div>
+        </form>
+        
+    </div>
+
+<div id="show-success" class="success-save alert alert-block alert-success">
+    <button type="button" class="close" data-dismiss="alert">
+        <i class="ace-icon fa fa-times"></i>
+    </button>
+
+    <p>
+        <strong>
+            <i class="ace-icon fa fa-check"></i>
+            Thank you!
+        </strong>
+        Patient Save successfully!
+    </p>
+</div>
+
+

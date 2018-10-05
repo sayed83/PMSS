@@ -1,0 +1,219 @@
+﻿@model IEnumerable<PMSMVC.Models.Patient>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section Assets
+{
+    <script src="~/assets/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/jquery.dataTables.bootstrap.min.js"></script>
+    <script src="~/assets/js/dataTables.buttons.min.js"></script>
+    <script src="~/assets/js/buttons.flash.min.js"></script>
+    <script src="~/assets/js/buttons.html5.min.js"></script>
+    <script src="~/assets/js/buttons.print.min.js"></script>
+    <script src="~/assets/js/buttons.colVis.min.js"></script>
+    <script src="~/assets/js/dataTables.select.min.js"></script>
+    <script src="~/assets/js/jquery-ui.min.js"></script>
+    <script src="~/assets/js/jquery.ui.touch-punch.min.js"></script>
+}
+
+@section CustomJS
+{
+    <script src="~/assets/js/custom-min.js"></script>
+    <script>
+        var ConfirmDelete = function (PatientID) {
+            $('#hiddenPatientID').val(PatientID);
+            $('#modal-table').modal('show');
+        }
+
+        var DeletePatient = function () {
+            $('#loaderDiv').show(2000);
+            var patId = $('#hiddenPatientID').val();
+            $.ajax({
+                url: "Patient/DeletePatient",
+                type: "POST",
+                data: { PatientID: patId },
+                success: function (result) {
+                    $('#loaderDiv').hide();
+                    $('#modal-table').modal('hide');
+                    $('#row_' + patId).remove();
+                }
+            });
+        }
+    </script>
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h3 class="header smaller lighter blue">Patient List</h3>
+
+        <div class="clearfix">
+            <div class="pull-left">
+                <a href="@Url.Action("Create", "Patient")" class="btn btn-link">
+                    <i class="ace-icon fa fa-plus-circle bigger-120 green"></i> Add Patient
+                </a>
+            </div>
+            <div class="pull-right tableTools-container"></div>
+        </div>
+        <div class="table-header">
+            Results for "Registered Patients"
+        </div>
+
+        <!-- div.table-responsive -->
+        <!-- div.dataTables_borderWrap -->
+        <div>
+            <table id="dynamic-table" class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th class="center">
+                            <label class="pos-rel">
+                                <input type="checkbox" class="ace" />
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th>
+                           Patient ID
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th class="hidden-480">
+                            Age
+                        </th>
+
+                        <th>
+                           Gender
+                        </th>
+                        <th>
+                            Contact Number
+                        </th>
+                        <th>
+                           Admission Date
+                        </th>
+                        <th class="hidden-480">
+                           Room ID
+                        </th>
+
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.PatientID">
+                            <td class="center">
+                                <label class="pos-rel">
+                                    <input type="checkbox" class="ace" />
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PatCardID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PatientName)
+                            </td>
+                            <td class="hidden-480">
+                                @Html.DisplayFor(modelItem => item.Age)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Gender)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ContactNumber)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AdmissionDate)
+                            </td>
+                            <td class="hidden-480">
+                                  @Html.DisplayFor(modelItem => item.Room.RoomNO)
+                            </td>
+                            <td>
+                                <div class="hidden-sm hidden-xs action-buttons">
+                                    <a class="blue" href="@Url.Action("Details", "Patient", new { id=item.PatientID})">
+                                        <i class="ace-icon fa fa-search-plus bigger-130"></i>
+                                    </a>
+
+                                    <a class="green" href="@Url.Action("Edit","Patient", new { id=item.PatientID})">
+                                        <i class="ace-icon fa fa-pencil bigger-130"></i>
+                                    </a>
+
+                                    <a id="id-btn-dialog2" class="red" href="#" onclick="ConfirmDelete(@item.PatientID)">
+                                        <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                    </a>
+                                </div>
+
+                                <div class="hidden-md hidden-lg">
+                                    <div class="inline pos-rel">
+                                        <button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                            <i class="ace-icon fa fa-caret-down icon-only bigger-120"></i>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                            <li>
+                                                <a href="@Url.Action("Details", "Patient", new { id=item.PatientID})" class="tooltip-info" data-rel="tooltip" title="View">
+                                                    <span class="blue">
+                                                        <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="@Url.Action("Edit","Patient", new { id=item.PatientID})" class="tooltip-success" data-rel="tooltip" title="Edit">
+                                                    <span class="green">
+                                                        <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="@Url.Action("Delete","Patient", new { id=item.PatientID})" class="tooltip-error" data-rel="tooltip" title="Delete">
+                                                    <span class="red">
+                                                        <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+            <input type="hidden" id="hiddenPatientID"/>
+        </div>
+    </div>
+</div>
+
+<!--Modal-->
+<div id="modal-table" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header no-padding">
+                <div class="table-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        <span class="white">&times;</span>
+                    </button>
+                    Delete Patient
+                </div>
+            </div>
+
+            <div class="modal-body no-padding">
+                <h4>Are you really want to delete this <strong style="color:red">Patient?</strong></h4>
+                <div style="text-align:center; display:none" id="loaderDiv">
+                    <img src="~/Content/ajax-loader.gif" width="50"/>
+                </div>
+               
+            </div>
+        <div class="modal-footer">
+            <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+            <a class="btn btn-danger" onclick="DeletePatient();" id="btnSubmit">Delete</a>
+        </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>

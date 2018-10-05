@@ -1,0 +1,1549 @@
+E:\MVC\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\MVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\MVC\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\MVC\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\MVC\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\MVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\MVC\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\MVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Owin.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\MVC\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\MVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\MVC\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\MVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\MVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\MVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\MVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Owin.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1229966\Dev\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\1229966\Dev\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Owin.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1229966\MVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\1229966\MVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\newpms\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\newpms\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\1229966\22April\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\1229966\22April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\1229966\22April\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\1229966\22April\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Owin.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1229966\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1229966\22April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\1229966\22April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\22April\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\22April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\22April\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\22April\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\22April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\22April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\22April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\22April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\23-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\23-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\24april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\24april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\24april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\24april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\24april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\24april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\1229966\24april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\1229966\24april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\1229966\24april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\1229966\24april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1229966\24april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1229966\24april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\1229966\24april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\1229966\24april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\25-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\25-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\1229966\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\1229966\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\1229966\26-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\27-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\27-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\27-april\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\30-April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\30-April\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Owin.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\Dev\13-MayNew\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Owin.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\WebGrease.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+E:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\ApplicationInsights.config
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\csc.exe
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\System.Collections.Immutable.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\System.Reflection.Metadata.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\vbc.exe
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\roslyn\VBCSCompiler.exe.config
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.dll.config
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\PMSMVC.pdb
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Web.Infrastructure.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Owin.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Razor.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\WebGrease.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.DependencyCollector.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.Web.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AI.WindowsServer.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.ApplicationInsights.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Helpers.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Mvc.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Optimization.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.Razor.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Deployment.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\System.Web.WebPages.Razor.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Antlr3.Runtime.pdb
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Newtonsoft.Json.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\EntityFramework.SqlServer.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Core.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Facebook.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Cookies.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.OAuth.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Google.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.Twitter.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.csprojResolveAssemblyReference.cache
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.dll
+G:\ESAD-CS\ASP.NET MVC\Project(Rahim)\PMSMVC\PMSMVC\PMSMVC\obj\Debug\PMSMVC.pdb

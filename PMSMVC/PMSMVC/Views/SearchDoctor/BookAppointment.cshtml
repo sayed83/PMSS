@@ -1,0 +1,113 @@
+﻿@model PMSMVC.Models.Appointment
+@{
+    ViewBag.Title = "BookAppointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('.book-section').parent().siblings(".footer").css("position", "static");
+            $('#apntmntBtn').click(function (e) {
+                e.preventDefault();
+
+                var data = $('#AppointForm').serialize();
+                $.ajax({
+                    url: "/SearchDoctor/BookAppointment",
+                    type: "POST",
+                    data: data,
+                    success: function (result) {
+                        $('#AppointForm').trigger("reset");//form reset after submiting
+                        $('#show-success').slideDown();
+                    }
+
+                });
+            });
+        });
+
+    </script>
+}
+<section class="book-section clearfix">
+    <div class="booking-overlay">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-8 col-md-offset-4">
+                    <div class="intro-box">
+                        <div class="col-md-8 col-md-offset-4">
+                            <h1 class="apt-head">Health &amp; Medical Hospital<br />Welcome!</h1>
+                            <ul class="apt-list">
+                                <li>It's like family here in our clinic</li>
+                                <li>Everybody treats patients like they are sisters, brothers.</li>
+                                <li>When one is in distress, evrybody are rush to help.</li>
+                                <li>Everybody treats patients like they are sisters, brothers.</li>
+                            </ul>
+
+                            <a href="javascript:void(0)" class="apt-demo">Make an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row apnt-row">
+        <div class="pull-left apnt-icon-box">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <p>Make An Appoinment</p>
+            <div class="top-apnt-row"></div>
+        </div>
+        <div class="pull-left apnt-form-box clearfix">
+            <form id="AppointForm" method="post">
+                @Html.AntiForgeryToken()
+            <ul class="apnt-form-list">
+                <li>
+                    <div class="apnt-form-field">
+                        <input type="hidden" id="DoctorID" name="DoctorID" value="@Request.QueryString["DoctorID"]"/>
+                        @Html.EditorFor(model => model.ApmntName, new { htmlAttributes = new { @class = "apnt-field form-control", @placeholder="Patient Name" } })
+                        @Html.ValidationMessageFor(model => model.ApmntName, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="apnt-form-field">
+                        @Html.EditorFor(model => model.ApmntPayment, new { htmlAttributes = new { @class = "apnt-field form-control",@type="number", @placeholder = "eg: 500 TK" } })
+                        @Html.ValidationMessageFor(model => model.ApmntPayment, "", new { @class = "text-danger" })
+                    </div>
+                </li>
+                <li>
+                    <div class="apnt-form-field">                        
+                        @Html.EditorFor(model => model.ApmntPhone, new { htmlAttributes = new { @class = "apnt-field form-control", @placeholder = "Contact Number" } })
+                        @Html.ValidationMessageFor(model => model.ApmntPhone, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="apnt-form-field">
+                        <div class="formBox">
+                            <i class="menu-icon fa fa-user-md"></i>  @Request.QueryString["DoctorName"]
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="apnt-form-field">
+                        @Html.EditorFor(model => model.ApmntDate, new { htmlAttributes = new { @class = "apnt-field form-control", @type="date", @placeholder = "Appointment Date" } })
+                        @Html.ValidationMessageFor(model => model.ApmntDate, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="apnt-form-field">
+                        <button id="apntmntBtn" class="btn btn-info apnt-btn" >Get An Appointment</button>
+                    </div>
+                </li>
+            </ul>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="show-success" class="success-save alert alert-block alert-success">
+    <button type="button" class="close" data-dismiss="alert">
+        <i class="ace-icon fa fa-times"></i>
+    </button>
+
+    <p>
+        <strong>
+            <i class="ace-icon fa fa-check"></i>
+            Thank you!
+        </strong>
+        Your Appoinment request successfully Send!
+    </p>
+</div>

@@ -1,0 +1,91 @@
+﻿@model PMSMVC.Models.Bill
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Bill</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BillNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillNO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrepareDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrepareDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DischargeDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DischargeDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PathologyFee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PathologyFee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorFee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorFee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherFees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherFees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Discount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Discount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Patient.PatCardID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Patient.PatCardID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Staff.StaffCardID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Staff.StaffCardID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BillID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

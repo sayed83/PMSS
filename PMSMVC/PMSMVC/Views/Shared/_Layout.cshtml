@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>@ViewBag.Title - Health and Medical</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/images/favicon.ico" />
+            @Styles.Render("~/Content/css")
+            <link href="~/Content/owl.carousel.min.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-bar row">
+                <div class="columns large-6 medium-6 mobile-hidden">
+                    <p>Welcome to Health &amp; Medical Service. <a href="#">PMS</a></p>
+                </div><!-- /.columns large-6 -->
+
+                <div class="columns large-6 medium-6">
+                    <a href="#section-book-appointment" class="button btn-light-blue waypoint">Book Appointment</a>
+                </div><!-- /.columns large-6 -->
+            </div><!-- /.header-bar row -->
+
+            <div class="row">
+                <div class="columns large-3 medium-12">
+                    <a href="index.html" class="logo">
+                        <img src="~/Content/images/logo.png" width="762" height="78" alt="Health &amp; Medical">
+                    </a>
+                </div><!-- /.columns large-3 -->
+
+                <div class="columns large-7 medium-8">
+
+                    <nav class="nav">
+                        <ul class="clearfix">
+                            <li class="current">
+                                @Html.ActionLink("Home", "Index", "Home")
+                            </li>
+
+                            <li>
+                                @Html.ActionLink("Doctors","Index","ViewDoctor")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Contact", "Index", "Contact")
+                            </li>
+                        </ul>
+                    </nav><!-- /.nav -->
+                </div><!-- /.columns large-6 -->
+
+                <div class="columns large-2 medium-4 mobile-hidden">
+                    <p class="phone">
+                        <i class="fa fa-mobile"></i>
+                        <small>Call Us</small>
+                        <a href='tel: 01757057721'>01757 05 77 21</a>
+                    </p><!-- /.phone -->
+                </div><!-- /.columns large-3 -->
+            </div><!-- /.row -->
+        </header><!-- /.header -->
+        <div class="render-body">
+            @RenderBody()
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="columns large-3 medium-12">
+                    <h5>Quick Links</h5>
+                    <ul class="list-links">
+                        <li>
+                            <a href="#">Doctors</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Desclaimer</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul><!-- /.list-links -->
+                </div><!-- /.columns large-3 -->
+
+                <div class="columns large-3 medium-12">
+                    <h5>Signup For Newsletter</h5>
+                    <div class="subscribe">
+                        <form action="?" method="post">
+                            <label for="mail">Select your newsletters, enter your email address, and click "Subscribe"</label>
+
+                            <input type="email" id="mail" name="mail" value="" placeholder="Email Address" class="subscribe-field" />
+
+                            <button type='submit' class="subscribe-btn">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div><!-- /.subscribe -->
+                </div><!-- /.columns large-3 -->
+
+                <div class="columns large-3 medium-12">
+                    <h5>Opening Hours</h5>
+                    <ul class="list-work-times">
+                        <li>
+                            <p>
+                                <span>Monday - Friday</span>
+
+                                <span>9:00 am - 18:00 pm</span>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <span>Saturday</span>
+
+                                <span>9:00 am - 16:00 pm</span>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <span>Sunday</span>
+
+                                <span>9:00 am - 14:00 pm</span>
+                            </p>
+                        </li>
+                    </ul><!-- /.list-work-times -->
+                </div><!-- /.columns large-3 -->
+
+                <div class="columns large-3 medium-12 contacts">
+                    <h5>Contact Us</h5>
+                    <p>51 Sherbrooke West <br /> Montréal (QC), H4B 2Y2</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <span>Phone : </span>
+                                <span>+215 231 1234</span>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <span>Email :</span>
+                                <span>info@health&amp;medical.com</span>
+                            </p>
+
+                        </li>
+                    </ul>
+                </div><!-- /.columns large-3 -->
+            </div><!-- /.row -->
+
+            <div class="row">
+                <p class="copyright">Copyright 2018. All Rights Reserved.  <a href="#" target="_blank">PMSystem</a></p><!-- /.copyright -->
+            </div><!-- /.row -->
+        </div><!-- /.footer -->
+    </div><!-- /.wrapper -->
+   
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Content/js/vendor.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/jquery.stellar.min.js"></script>
+    <script src="~/Content/js/app.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+    

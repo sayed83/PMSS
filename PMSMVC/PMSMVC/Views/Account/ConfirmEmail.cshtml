@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Confirmed Email";
+}
+
+<section class="section confirm-section">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="confirm-box">
+                <h2>@ViewBag.Title.</h2>
+                <br/>
+                <h4 style="letter-spacing:2px;">
+                    @ViewBag.Message
+                </h4>
+                <br/>
+                @Html.ActionLink("Please Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "btn btn-info" })
+            </div>
+        </div>
+    </div>
+</section>

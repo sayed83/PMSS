@@ -1,0 +1,25 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@{
+    ViewBag.Title = "Edit Role";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Role</h2>
+@Html.ActionLink("Return To Role Manager", "Index")
+<br /><hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken();
+    @Html.ValidationSummary(true);
+    @Html.HiddenFor(model => model.Id)
+
+    <div>Role Name</div>
+
+    <p>
+        @Html.TextBoxFor(model => model.Name)
+    </p>
+    <input type="submit" value="Save" />
+}
+
+

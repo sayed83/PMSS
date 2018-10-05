@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PmsmvcDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Appointment">
+          <Key>
+            <PropertyRef Name="AppoinmentID" />
+          </Key>
+          <Property Name="AppoinmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ApmntName" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="ApmntPhone" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="ApmntPayment" Type="money" Nullable="false" />
+          <Property Name="ApmntDate" Type="date" Nullable="false" />
+          <Property Name="DoctorID" Type="int" Nullable="false" />
+          <Property Name="ApmntMakeDate" Type="date" />
+          <Property Name="Approved" Type="bit" />
+        </EntityType>
+        <EntityType Name="Bill">
+          <Key>
+            <PropertyRef Name="BillID" />
+          </Key>
+          <Property Name="BillID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BillNO" Type="varchar" MaxLength="12" StoreGeneratedPattern="Computed" />
+          <Property Name="StaffID" Type="int" />
+          <Property Name="PatientID" Type="int" />
+          <Property Name="PrepareDate" Type="date" Nullable="false" />
+          <Property Name="DischargeDate" Type="date" Nullable="false" />
+          <Property Name="RoomCharge" Type="money" />
+          <Property Name="PathologyFee" Type="money" />
+          <Property Name="DoctorFee" Type="money" />
+          <Property Name="OtherFees" Type="money" />
+          <Property Name="Discount" Type="money" />
+        </EntityType>
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="DoctorID" />
+          </Key>
+          <Property Name="DoctorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DoctorCardID" Type="varchar" MaxLength="6" StoreGeneratedPattern="Computed" />
+          <Property Name="DoctorName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Gender" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="ContactNumber" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="DoctorAvatar" Type="varchar" MaxLength="500" />
+          <Property Name="Dob" Type="date" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="City" Type="varchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nchar" MaxLength="10" />
+          <Property Name="QualificationID" Type="int" />
+          <Property Name="SpecialityID" Type="int" />
+          <Property Name="JoiningDate" Type="datetime" Nullable="false" />
+          <Property Name="AddeddDate" Type="date" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="Hospital">
+          <Key>
+            <PropertyRef Name="HospitalID" />
+          </Key>
+          <Property Name="HospitalID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HospitalName" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="11" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="PatientID" />
+          </Key>
+          <Property Name="PatientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PatCardID" Type="varchar" MaxLength="7" StoreGeneratedPattern="Computed" />
+          <Property Name="PatientName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Age" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Gender" Type="varchar" MaxLength="10" />
+          <Property Name="ContactNumber" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="AdmissionDate" Type="datetime" />
+          <Property Name="RoomID" Type="int" />
+          <Property Name="IsDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="Qualification">
+          <Key>
+            <PropertyRef Name="QualificationID" />
+          </Key>
+          <Property Name="QualificationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="QualificationName" Type="varchar" MaxLength="70" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="RoomID" />
+          </Key>
+          <Property Name="RoomID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoomNO" Type="varchar" MaxLength="5" StoreGeneratedPattern="Computed" />
+          <Property Name="RoomCategoryID" Type="int" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="RoomCategory">
+          <Key>
+            <PropertyRef Name="RoomCategoryID" />
+          </Key>
+          <Property Name="RoomCategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoomCategory" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="RoomFee" Type="money" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="ScheduleID" />
+          </Key>
+          <Property Name="ScheduleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScheduleDate" Type="date" Nullable="false" />
+          <Property Name="ScheduleAllow" Type="int" />
+          <Property Name="DoctorID" Type="int" />
+        </EntityType>
+        <EntityType Name="Speciality">
+          <Key>
+            <PropertyRef Name="SpecialityID" />
+          </Key>
+          <Property Name="SpecialityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SpecialityTag" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Staff">
+          <Key>
+            <PropertyRef Name="StaffID" />
+          </Key>
+          <Property Name="StaffID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StaffCardID" Type="varchar" MaxLength="7" StoreGeneratedPattern="Computed" />
+          <Property Name="StaffName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Gender" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="ContactNumber" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Dob" Type="date" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="City" Type="varchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nchar" MaxLength="10" />
+          <Property Name="StaffAvater" Type="nvarchar" MaxLength="90" />
+          <Property Name="JoiningDate" Type="datetime" />
+          <Property Name="AddeddDate" Type="date" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="Treatment">
+          <Key>
+            <PropertyRef Name="TreatmentID" />
+          </Key>
+          <Property Name="TreatmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TreatmentName" Type="varchar" MaxLength="40" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TreatmentDetials">
+          <Key>
+            <PropertyRef Name="TreatmentDetailID" />
+          </Key>
+          <Property Name="TreatmentDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TreatmentID" Type="int" />
+          <Property Name="Description" Type="varchar" MaxLength="120" />
+          <Property Name="DoctorID" Type="int" />
+          <Property Name="PatientID" Type="int" />
+        </EntityType>
+        <Association Name="FK__Appointme__Docto__19AACF41">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+          <End Role="Appointment" Type="Self.Appointment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="Appointment">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill__PatientID__793DFFAF">
+          <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patient">
+              <PropertyRef Name="PatientID" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="PatientID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill__StaffID__7A3223E8">
+          <End Role="Staff" Type="Self.Staff" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Staff">
+              <PropertyRef Name="StaffID" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="StaffID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Doctor__Qualific__2A164134">
+          <End Role="Qualification" Type="Self.Qualification" Multiplicity="0..1" />
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Qualification">
+              <PropertyRef Name="QualificationID" />
+            </Principal>
+            <Dependent Role="Doctor">
+              <PropertyRef Name="QualificationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Doctor__Speciali__2B0A656D">
+          <End Role="Speciality" Type="Self.Speciality" Multiplicity="0..1" />
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Speciality">
+              <PropertyRef Name="SpecialityID" />
+            </Principal>
+            <Dependent Role="Doctor">
+              <PropertyRef Name="SpecialityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Patient__RoomID__17036CC0">
+          <End Role="Room" Type="Self.Room" Multiplicity="0..1" />
+          <End Role="Patient" Type="Self.Patient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="Patient">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Room__RoomCatego__03F0984C">
+          <End Role="RoomCategory" Type="Self.RoomCategory" Multiplicity="0..1" />
+          <End Role="Room" Type="Self.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RoomCategory">
+              <PropertyRef Name="RoomCategoryID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="RoomCategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Schedule__Doctor__2EA5EC27">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Docto__2BFE89A6">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Patie__17F790F9">
+          <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patient">
+              <PropertyRef Name="PatientID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="PatientID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Treat__74AE54BC">
+          <End Role="Treatment" Type="Self.Treatment" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Treatment">
+              <PropertyRef Name="TreatmentID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="TreatmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PmsmvcDBModelStoreContainer">
+          <EntitySet Name="Appointment" EntityType="Self.Appointment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bill" EntityType="Self.Bill" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Doctor" EntityType="Self.Doctor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Hospital" EntityType="Self.Hospital" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Qualification" EntityType="Self.Qualification" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Room" EntityType="Self.Room" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RoomCategory" EntityType="Self.RoomCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Schedule" EntityType="Self.Schedule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Speciality" EntityType="Self.Speciality" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Staff" EntityType="Self.Staff" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Treatment" EntityType="Self.Treatment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TreatmentDetials" EntityType="Self.TreatmentDetials" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Appointme__Docto__19AACF41" Association="Self.FK__Appointme__Docto__19AACF41">
+            <End Role="Doctor" EntitySet="Doctor" />
+            <End Role="Appointment" EntitySet="Appointment" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill__PatientID__793DFFAF" Association="Self.FK__Bill__PatientID__793DFFAF">
+            <End Role="Patient" EntitySet="Patient" />
+            <End Role="Bill" EntitySet="Bill" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill__StaffID__7A3223E8" Association="Self.FK__Bill__StaffID__7A3223E8">
+            <End Role="Staff" EntitySet="Staff" />
+            <End Role="Bill" EntitySet="Bill" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Doctor__Qualific__2A164134" Association="Self.FK__Doctor__Qualific__2A164134">
+            <End Role="Qualification" EntitySet="Qualification" />
+            <End Role="Doctor" EntitySet="Doctor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Doctor__Speciali__2B0A656D" Association="Self.FK__Doctor__Speciali__2B0A656D">
+            <End Role="Speciality" EntitySet="Speciality" />
+            <End Role="Doctor" EntitySet="Doctor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Patient__RoomID__17036CC0" Association="Self.FK__Patient__RoomID__17036CC0">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="Patient" EntitySet="Patient" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Room__RoomCatego__03F0984C" Association="Self.FK__Room__RoomCatego__03F0984C">
+            <End Role="RoomCategory" EntitySet="RoomCategory" />
+            <End Role="Room" EntitySet="Room" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Schedule__Doctor__2EA5EC27" Association="Self.FK__Schedule__Doctor__2EA5EC27">
+            <End Role="Doctor" EntitySet="Doctor" />
+            <End Role="Schedule" EntitySet="Schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Docto__2BFE89A6" Association="Self.FK__Treatment__Docto__2BFE89A6">
+            <End Role="Doctor" EntitySet="Doctor" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Patie__17F790F9" Association="Self.FK__Treatment__Patie__17F790F9">
+            <End Role="Patient" EntitySet="Patient" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Treat__74AE54BC" Association="Self.FK__Treatment__Treat__74AE54BC">
+            <End Role="Treatment" EntitySet="Treatment" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PmsmvcDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Appointment">
+          <Key>
+            <PropertyRef Name="AppoinmentID" />
+          </Key>
+          <Property Name="AppoinmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApmntName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ApmntPhone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ApmntPayment" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="ApmntDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="DoctorID" Type="Int32" Nullable="false" />
+          <Property Name="ApmntMakeDate" Type="DateTime" Precision="0" />
+          <Property Name="Approved" Type="Boolean" />
+          <NavigationProperty Name="Doctor" Relationship="Self.FK__Appointme__Docto__19AACF41" FromRole="Appointment" ToRole="Doctor" />
+        </EntityType>
+        <EntityType Name="Bill">
+          <Key>
+            <PropertyRef Name="BillID" />
+          </Key>
+          <Property Name="BillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BillNO" Type="String" MaxLength="12" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="StaffID" Type="Int32" />
+          <Property Name="PatientID" Type="Int32" />
+          <Property Name="PrepareDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="DischargeDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="RoomCharge" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PathologyFee" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="DoctorFee" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="OtherFees" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Discount" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Patient" Relationship="Self.FK__Bill__PatientID__793DFFAF" FromRole="Bill" ToRole="Patient" />
+          <NavigationProperty Name="Staff" Relationship="Self.FK__Bill__StaffID__7A3223E8" FromRole="Bill" ToRole="Staff" />
+        </EntityType>
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="DoctorID" />
+          </Key>
+          <Property Name="DoctorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DoctorCardID" Type="String" MaxLength="6" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="DoctorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ContactNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DoctorAvatar" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Dob" Type="DateTime" Precision="0" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ZipCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="QualificationID" Type="Int32" />
+          <Property Name="SpecialityID" Type="Int32" />
+          <Property Name="JoiningDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="AddeddDate" Type="DateTime" Precision="0" />
+          <Property Name="IsActive" Type="Boolean" />
+          <NavigationProperty Name="Appointments" Relationship="Self.FK__Appointme__Docto__19AACF41" FromRole="Doctor" ToRole="Appointment" />
+          <NavigationProperty Name="Qualification" Relationship="Self.FK__Doctor__Qualific__2A164134" FromRole="Doctor" ToRole="Qualification" />
+          <NavigationProperty Name="Speciality" Relationship="Self.FK__Doctor__Speciali__2B0A656D" FromRole="Doctor" ToRole="Speciality" />
+          <NavigationProperty Name="Schedules" Relationship="Self.FK__Schedule__Doctor__2EA5EC27" FromRole="Doctor" ToRole="Schedule" />
+          <NavigationProperty Name="TreatmentDetials" Relationship="Self.FK__Treatment__Docto__2BFE89A6" FromRole="Doctor" ToRole="TreatmentDetials" />
+        </EntityType>
+        <EntityType Name="Hospital">
+          <Key>
+            <PropertyRef Name="HospitalID" />
+          </Key>
+          <Property Name="HospitalID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HospitalName" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="PatientID" />
+          </Key>
+          <Property Name="PatientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PatCardID" Type="String" MaxLength="7" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="PatientName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Age" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ContactNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AdmissionDate" Type="DateTime" Precision="3" />
+          <Property Name="RoomID" Type="Int32" />
+          <NavigationProperty Name="Bills" Relationship="Self.FK__Bill__PatientID__793DFFAF" FromRole="Patient" ToRole="Bill" />
+          <NavigationProperty Name="Room" Relationship="Self.FK__Patient__RoomID__17036CC0" FromRole="Patient" ToRole="Room" />
+          <NavigationProperty Name="TreatmentDetials" Relationship="Self.FK__Treatment__Patie__17F790F9" FromRole="Patient" ToRole="TreatmentDetials" />
+          <Property Name="IsDeleted" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Qualification">
+          <Key>
+            <PropertyRef Name="QualificationID" />
+          </Key>
+          <Property Name="QualificationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="QualificationName" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Doctors" Relationship="Self.FK__Doctor__Qualific__2A164134" FromRole="Qualification" ToRole="Doctor" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="RoomID" />
+          </Key>
+          <Property Name="RoomID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoomNO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="RoomCategoryID" Type="Int32" />
+          <Property Name="IsActive" Type="Boolean" />
+          <NavigationProperty Name="Patients" Relationship="Self.FK__Patient__RoomID__17036CC0" FromRole="Room" ToRole="Patient" />
+          <NavigationProperty Name="RoomCategory" Relationship="Self.FK__Room__RoomCatego__03F0984C" FromRole="Room" ToRole="RoomCategory" />
+        </EntityType>
+        <EntityType Name="RoomCategory">
+          <Key>
+            <PropertyRef Name="RoomCategoryID" />
+          </Key>
+          <Property Name="RoomCategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoomCategory1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RoomFee" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <NavigationProperty Name="Rooms" Relationship="Self.FK__Room__RoomCatego__03F0984C" FromRole="RoomCategory" ToRole="Room" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="ScheduleID" />
+          </Key>
+          <Property Name="ScheduleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScheduleDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ScheduleAllow" Type="Int32" />
+          <Property Name="DoctorID" Type="Int32" />
+          <NavigationProperty Name="Doctor" Relationship="Self.FK__Schedule__Doctor__2EA5EC27" FromRole="Schedule" ToRole="Doctor" />
+        </EntityType>
+        <EntityType Name="Speciality">
+          <Key>
+            <PropertyRef Name="SpecialityID" />
+          </Key>
+          <Property Name="SpecialityID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SpecialityTag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Doctors" Relationship="Self.FK__Doctor__Speciali__2B0A656D" FromRole="Speciality" ToRole="Doctor" />
+        </EntityType>
+        <EntityType Name="Staff">
+          <Key>
+            <PropertyRef Name="StaffID" />
+          </Key>
+          <Property Name="StaffID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StaffCardID" Type="String" MaxLength="7" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="StaffName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ContactNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Dob" Type="DateTime" Precision="0" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ZipCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="StaffAvater" Type="String" MaxLength="90" FixedLength="false" Unicode="true" />
+          <Property Name="JoiningDate" Type="DateTime" Precision="3" />
+          <Property Name="AddeddDate" Type="DateTime" Precision="0" />
+          <Property Name="IsActive" Type="Boolean" />
+          <NavigationProperty Name="Bills" Relationship="Self.FK__Bill__StaffID__7A3223E8" FromRole="Staff" ToRole="Bill" />
+        </EntityType>
+        <EntityType Name="Treatment">
+          <Key>
+            <PropertyRef Name="TreatmentID" />
+          </Key>
+          <Property Name="TreatmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TreatmentName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="TreatmentDetials" Relationship="Self.FK__Treatment__Treat__74AE54BC" FromRole="Treatment" ToRole="TreatmentDetials" />
+        </EntityType>
+        <EntityType Name="TreatmentDetial">
+          <Key>
+            <PropertyRef Name="TreatmentDetailID" />
+          </Key>
+          <Property Name="TreatmentDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TreatmentID" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Name="DoctorID" Type="Int32" />
+          <Property Name="PatientID" Type="Int32" />
+          <NavigationProperty Name="Doctor" Relationship="Self.FK__Treatment__Docto__2BFE89A6" FromRole="TreatmentDetials" ToRole="Doctor" />
+          <NavigationProperty Name="Patient" Relationship="Self.FK__Treatment__Patie__17F790F9" FromRole="TreatmentDetials" ToRole="Patient" />
+          <NavigationProperty Name="Treatment" Relationship="Self.FK__Treatment__Treat__74AE54BC" FromRole="TreatmentDetials" ToRole="Treatment" />
+        </EntityType>
+        <Association Name="FK__Appointme__Docto__19AACF41">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+          <End Role="Appointment" Type="Self.Appointment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="Appointment">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill__PatientID__793DFFAF">
+          <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patient">
+              <PropertyRef Name="PatientID" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="PatientID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill__StaffID__7A3223E8">
+          <End Role="Staff" Type="Self.Staff" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Staff">
+              <PropertyRef Name="StaffID" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="StaffID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Doctor__Qualific__2A164134">
+          <End Role="Qualification" Type="Self.Qualification" Multiplicity="0..1" />
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Qualification">
+              <PropertyRef Name="QualificationID" />
+            </Principal>
+            <Dependent Role="Doctor">
+              <PropertyRef Name="QualificationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Doctor__Speciali__2B0A656D">
+          <End Role="Speciality" Type="Self.Speciality" Multiplicity="0..1" />
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Speciality">
+              <PropertyRef Name="SpecialityID" />
+            </Principal>
+            <Dependent Role="Doctor">
+              <PropertyRef Name="SpecialityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Schedule__Doctor__2EA5EC27">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Docto__2BFE89A6">
+          <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Doctor">
+              <PropertyRef Name="DoctorID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="DoctorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Patient__RoomID__17036CC0">
+          <End Role="Room" Type="Self.Room" Multiplicity="0..1" />
+          <End Role="Patient" Type="Self.Patient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="Patient">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Patie__17F790F9">
+          <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patient">
+              <PropertyRef Name="PatientID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="PatientID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Room__RoomCatego__03F0984C">
+          <End Role="RoomCategory" Type="Self.RoomCategory" Multiplicity="0..1" />
+          <End Role="Room" Type="Self.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RoomCategory">
+              <PropertyRef Name="RoomCategoryID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="RoomCategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Treatment__Treat__74AE54BC">
+          <End Role="Treatment" Type="Self.Treatment" Multiplicity="0..1" />
+          <End Role="TreatmentDetials" Type="Self.TreatmentDetial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Treatment">
+              <PropertyRef Name="TreatmentID" />
+            </Principal>
+            <Dependent Role="TreatmentDetials">
+              <PropertyRef Name="TreatmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PmsmvcDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Appointments" EntityType="Self.Appointment" />
+          <EntitySet Name="Bills" EntityType="Self.Bill" />
+          <EntitySet Name="Doctors" EntityType="Self.Doctor" />
+          <EntitySet Name="Hospitals" EntityType="Self.Hospital" />
+          <EntitySet Name="Patients" EntityType="Self.Patient" />
+          <EntitySet Name="Qualifications" EntityType="Self.Qualification" />
+          <EntitySet Name="Rooms" EntityType="Self.Room" />
+          <EntitySet Name="RoomCategories" EntityType="Self.RoomCategory" />
+          <EntitySet Name="Schedules" EntityType="Self.Schedule" />
+          <EntitySet Name="Specialities" EntityType="Self.Speciality" />
+          <EntitySet Name="Staffs" EntityType="Self.Staff" />
+          <EntitySet Name="Treatments" EntityType="Self.Treatment" />
+          <EntitySet Name="TreatmentDetials" EntityType="Self.TreatmentDetial" />
+          <AssociationSet Name="FK__Appointme__Docto__19AACF41" Association="Self.FK__Appointme__Docto__19AACF41">
+            <End Role="Doctor" EntitySet="Doctors" />
+            <End Role="Appointment" EntitySet="Appointments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill__PatientID__793DFFAF" Association="Self.FK__Bill__PatientID__793DFFAF">
+            <End Role="Patient" EntitySet="Patients" />
+            <End Role="Bill" EntitySet="Bills" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill__StaffID__7A3223E8" Association="Self.FK__Bill__StaffID__7A3223E8">
+            <End Role="Staff" EntitySet="Staffs" />
+            <End Role="Bill" EntitySet="Bills" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Doctor__Qualific__2A164134" Association="Self.FK__Doctor__Qualific__2A164134">
+            <End Role="Qualification" EntitySet="Qualifications" />
+            <End Role="Doctor" EntitySet="Doctors" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Doctor__Speciali__2B0A656D" Association="Self.FK__Doctor__Speciali__2B0A656D">
+            <End Role="Speciality" EntitySet="Specialities" />
+            <End Role="Doctor" EntitySet="Doctors" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Schedule__Doctor__2EA5EC27" Association="Self.FK__Schedule__Doctor__2EA5EC27">
+            <End Role="Doctor" EntitySet="Doctors" />
+            <End Role="Schedule" EntitySet="Schedules" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Docto__2BFE89A6" Association="Self.FK__Treatment__Docto__2BFE89A6">
+            <End Role="Doctor" EntitySet="Doctors" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Patient__RoomID__17036CC0" Association="Self.FK__Patient__RoomID__17036CC0">
+            <End Role="Room" EntitySet="Rooms" />
+            <End Role="Patient" EntitySet="Patients" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Patie__17F790F9" Association="Self.FK__Treatment__Patie__17F790F9">
+            <End Role="Patient" EntitySet="Patients" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Room__RoomCatego__03F0984C" Association="Self.FK__Room__RoomCatego__03F0984C">
+            <End Role="RoomCategory" EntitySet="RoomCategories" />
+            <End Role="Room" EntitySet="Rooms" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Treatment__Treat__74AE54BC" Association="Self.FK__Treatment__Treat__74AE54BC">
+            <End Role="Treatment" EntitySet="Treatments" />
+            <End Role="TreatmentDetials" EntitySet="TreatmentDetials" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PmsmvcDBModelStoreContainer" CdmEntityContainer="PmsmvcDBEntities">
+          <EntitySetMapping Name="Appointments">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Appointment">
+              <MappingFragment StoreEntitySet="Appointment">
+                <ScalarProperty Name="AppoinmentID" ColumnName="AppoinmentID" />
+                <ScalarProperty Name="ApmntName" ColumnName="ApmntName" />
+                <ScalarProperty Name="ApmntPhone" ColumnName="ApmntPhone" />
+                <ScalarProperty Name="ApmntPayment" ColumnName="ApmntPayment" />
+                <ScalarProperty Name="ApmntDate" ColumnName="ApmntDate" />
+                <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+                <ScalarProperty Name="ApmntMakeDate" ColumnName="ApmntMakeDate" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bills">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Bill">
+              <MappingFragment StoreEntitySet="Bill">
+                <ScalarProperty Name="BillID" ColumnName="BillID" />
+                <ScalarProperty Name="BillNO" ColumnName="BillNO" />
+                <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+                <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+                <ScalarProperty Name="PrepareDate" ColumnName="PrepareDate" />
+                <ScalarProperty Name="DischargeDate" ColumnName="DischargeDate" />
+                <ScalarProperty Name="RoomCharge" ColumnName="RoomCharge" />
+                <ScalarProperty Name="PathologyFee" ColumnName="PathologyFee" />
+                <ScalarProperty Name="DoctorFee" ColumnName="DoctorFee" />
+                <ScalarProperty Name="OtherFees" ColumnName="OtherFees" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Doctors">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Doctor">
+              <MappingFragment StoreEntitySet="Doctor">
+                <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+                <ScalarProperty Name="DoctorCardID" ColumnName="DoctorCardID" />
+                <ScalarProperty Name="DoctorName" ColumnName="DoctorName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="DoctorAvatar" ColumnName="DoctorAvatar" />
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="QualificationID" ColumnName="QualificationID" />
+                <ScalarProperty Name="SpecialityID" ColumnName="SpecialityID" />
+                <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+                <ScalarProperty Name="AddeddDate" ColumnName="AddeddDate" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Hospitals">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Hospital">
+              <MappingFragment StoreEntitySet="Hospital">
+                <ScalarProperty Name="HospitalID" ColumnName="HospitalID" />
+                <ScalarProperty Name="HospitalName" ColumnName="HospitalName" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patients">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Patient">
+              <MappingFragment StoreEntitySet="Patient">
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+                <ScalarProperty Name="PatCardID" ColumnName="PatCardID" />
+                <ScalarProperty Name="PatientName" ColumnName="PatientName" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="AdmissionDate" ColumnName="AdmissionDate" />
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Qualifications">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Qualification">
+              <MappingFragment StoreEntitySet="Qualification">
+                <ScalarProperty Name="QualificationID" ColumnName="QualificationID" />
+                <ScalarProperty Name="QualificationName" ColumnName="QualificationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rooms">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Room">
+              <MappingFragment StoreEntitySet="Room">
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+                <ScalarProperty Name="RoomNO" ColumnName="RoomNO" />
+                <ScalarProperty Name="RoomCategoryID" ColumnName="RoomCategoryID" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RoomCategories">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.RoomCategory">
+              <MappingFragment StoreEntitySet="RoomCategory">
+                <ScalarProperty Name="RoomCategoryID" ColumnName="RoomCategoryID" />
+                <ScalarProperty Name="RoomCategory1" ColumnName="RoomCategory" />
+                <ScalarProperty Name="RoomFee" ColumnName="RoomFee" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Schedules">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Schedule">
+              <MappingFragment StoreEntitySet="Schedule">
+                <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+                <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+                <ScalarProperty Name="ScheduleAllow" ColumnName="ScheduleAllow" />
+                <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Specialities">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Speciality">
+              <MappingFragment StoreEntitySet="Speciality">
+                <ScalarProperty Name="SpecialityID" ColumnName="SpecialityID" />
+                <ScalarProperty Name="SpecialityTag" ColumnName="SpecialityTag" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Staffs">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Staff">
+              <MappingFragment StoreEntitySet="Staff">
+                <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+                <ScalarProperty Name="StaffCardID" ColumnName="StaffCardID" />
+                <ScalarProperty Name="StaffName" ColumnName="StaffName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="StaffAvater" ColumnName="StaffAvater" />
+                <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+                <ScalarProperty Name="AddeddDate" ColumnName="AddeddDate" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Treatments">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.Treatment">
+              <MappingFragment StoreEntitySet="Treatment">
+                <ScalarProperty Name="TreatmentID" ColumnName="TreatmentID" />
+                <ScalarProperty Name="TreatmentName" ColumnName="TreatmentName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TreatmentDetials">
+            <EntityTypeMapping TypeName="PmsmvcDBModel.TreatmentDetial">
+              <MappingFragment StoreEntitySet="TreatmentDetials">
+                <ScalarProperty Name="TreatmentDetailID" ColumnName="TreatmentDetailID" />
+                <ScalarProperty Name="TreatmentID" ColumnName="TreatmentID" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+                <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

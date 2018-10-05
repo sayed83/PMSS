@@ -1,0 +1,131 @@
+﻿@model PMSMVC.Models.Doctor
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <table class="table">
+                <tr class="detail-row open">
+                    <td>
+                        <div class="table-detail">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 style="text-align:center">Want to Delete this Doctro?</h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img height="150" class="thumbnail inline no-margin-bottom" alt="Domain Owner's Avatar" src="~/assets/images/avatars/profile-pic.jpg" />
+                                        <br />
+                                        <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
+                                            <div class="inline position-relative">
+                                                <a class="user-title-label" href="#">
+                                                    <i class="ace-icon fa fa-circle light-green"></i>
+                                                    &nbsp;
+                                                    <span class="white">@Html.DisplayFor(model => model.DoctorName)</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="space visible-xs"></div>
+
+                                    <div class="profile-user-info profile-user-info-striped">
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Patient ID </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.DoctorCardID)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name">Gender </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Gender)</span>
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name">Date of Birth </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Dob)</span>
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Cell Number </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.ContactNumber)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Joining Date </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.JoiningDate)</span>
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Qualification </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Qualification.QualificationName)</span>
+                                            </div>
+                                        </div>
+                                        @Html.HiddenFor(model => model.DoctorID)
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Speciality </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Speciality.SpecialityTag)</span>
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Address </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Address) @Html.DisplayFor(model => model.ZipCode) @Html.DisplayFor(model => model.City)</span>
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Is Active </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.IsActive)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> &nbsp; </div>
+
+                                            <div class="profile-info-value">
+                                                @using (Html.BeginForm())
+                                                {
+                                                    @Html.AntiForgeryToken()
+
+                                                    <div class="form-action no-color">
+                                                        <input type="submit" value="Delete" class="btn btn-default" /> |
+                                                        @Html.ActionLink("Back to List", "Index")
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

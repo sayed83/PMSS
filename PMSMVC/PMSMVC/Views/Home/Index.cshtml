@@ -1,0 +1,1133 @@
+﻿@model PMSMVC.ViewModels.SearchDoctorVm
+
+@{
+    ViewBag.Title = "Home Page";
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $('#btn-DoctorSearch').click(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: "@Url.Action("SearchDoctor", "SearchDoctor")",
+                    type: "GET",
+                    data: { SpecialityID: $("#specialID").val(), DoctorName: $("#DoctorName").val() },
+                    cache: false,
+                    dataType: "json",
+                    async: true,
+                    contentType: "application/json",
+                    success: function (response) {
+
+                        $('#showResult').empty();
+                        var columns;
+                        $.each(response, function (i, item) {
+                            if (response != null || response !=[] ) {
+                                columns = "<div class='doc-slide col-md-3'>" +
+                                            "<img height='250' width='270' class='slide-img' src='/AppFile/Images/DoctorsImg/" + item.DoctorAvatar + "'/>" +
+                                            "<span class='name'>" + item.DoctorName + "</span>" +
+                                            "<span class='category'>" + item.SpecialityTag + "</span>" +
+                                            "<a href='/SearchDoctor/BookAppointment?DoctorID=" + item.DoctorID + "&DoctorName=" + item.DoctorName + "' target='_blank' class='btn btn_small'>BOOK AN APPOINTMENT</a>" +
+                                        "</div>";
+
+                                $('#showResult').append(columns);
+                            } else {
+                                var html = "";
+                                html = "<h3 class='noResult text-info' >";
+                                html += "No Result found!";
+                                html += "</h3>";
+                                $('#showResult').append(html);
+                            }
+                            
+                        });
+
+                        //add before a div in every 8 child divs dynamically
+                        var divs = $("div.doctorSlider > div");
+                        for (var i = 0; i < divs.length; i += 8) {
+                            divs.slice(i, i + 8).wrapAll("<div></div>");
+                        }
+                    }
+
+                });
+            });
+
+
+
+        });
+    </script>
+}
+
+
+
+
+
+<div class="intro">
+    <div class="intro-slider">
+        <div class="slider-clip">
+            <ul class="slides">
+                <li class="slide fullsize-image-container">
+                    <div class="slide-image">
+                        <img src="~/Content/images/temp/slide1.jpg" width="2560" height="1200" class="fullsize-image" alt="" />
+                    </div><!-- /.slide-image -->
+
+                    <div class="slide-caption">
+                        <h5>ABOUT HEALTH</h5>
+
+                        <div class="slide-caption-inner">
+                            <h1>
+                                <span>PROVIDING TOTAL</span>
+                                HEALTH CARE SOLUTION
+                            </h1>
+
+                            <p class="mobile-hidden">Forth fruit beginning life likeness dry day from one rule it earth isn't sea fourth.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know More
+                            </a>
+                        </div><!-- /.slide-caption-inner -->
+                    </div><!-- /.slide-caption -->
+                </li><!-- /.slide -->
+
+                <li class="slide fullsize-image-container">
+                    <div class="slide-image">
+                        <img src="~/Content/images/temp/slide2.jpg" width="2560" height="1200" class="fullsize-image" alt="" />
+                    </div><!-- /.slide-image -->
+
+                    <div class="slide-caption">
+                        <h5>ABOUT HEALTH</h5>
+
+                        <div class="slide-caption-inner">
+                            <h1>
+                                <span>PROVIDING TOTAL</span>
+                                HEALTH CARE SOLUTION
+                            </h1>
+
+                            <p class="mobile-hidden"> Doesn't you're they're herb moved he female wherein shall upon you their kind void.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Call to Action
+                            </a>
+                        </div><!-- /.slide-caption-inner -->
+                    </div><!-- /.slide-caption -->
+                </li><!-- /.slide -->
+            </ul><!-- /.slides -->
+        </div><!-- /.slider-clip -->
+    </div><!-- /.intro-slider -->
+</div><!-- /.intro -->
+
+<div class="main">
+
+    <!-- Book appointment -->
+    <section class="section section-doctors section-book-appointment" id="section-book-appointment">
+        <div class="section-ribbon">
+            <i class="icon-medical-checklist"></i>
+        </div><!-- /.section-ribbon -->
+        <header class="section-head">
+            <h2>Story &amp; Services</h2>
+
+            <h6>WE ARE RELIABLE &amp; TRUSTED</h6>
+        </header><!-- /.section-head -->
+        <div class="section-body">
+            <div class="row search-section">
+                <div class="col-md-5 col-md-offset-2">
+                    <img src="~/Content/images/appoinment.jpg" />
+                </div>
+                <div class="col-md-3">
+                    <div class="search-box">
+                        <div class="form-group">
+                            <p class="search-Doctxt">Select Speciality</p>
+                            <div class="select-box">
+                                @if (ViewBag.SpecialityList != null)
+                                {
+                                    @Html.DropDownListFor(model => model.SpecialityID, ViewBag.SpecialityList as SelectList, "---Select Speciality---", new { @id = "specialID", @class = "form-control docsearch-field" })
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="select-box">
+                                <input id="DoctorName" class="form-control docsearch-field" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button id="btn-DoctorSearch" type="submit" class="btn btn-info docsearch-btn">Search Doctor <i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!-- /.section-body -->
+    </section><!-- /.section-book-appointment -->
+<section class="slider_team">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div id="showResult" class="doctorSlider">
+            </div>
+        </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end slider_team -->
+
+<!-- Section Information -->
+<section class="section section-information">
+    <div class="row">
+        <div class="columns large-6 medium-12 grey">
+            <section class="section-about-us fullsize-image-container">
+                <h6>OUR STORY</h6>
+
+                <h2>ABOUT HEALTH &amp; MEDICAL</h2>
+
+                <h3>Great one let abundantly sixth let were one earth were him after tree seed over.</h3>
+
+                <p>Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fish them place thing given beast isn't isn't tree. Have.</p>
+
+
+                <a href="#" class="button btn-light-blue btn-small">Know More</a>
+
+                <div class="image">
+                    <img src="~/Content/images/temp/doctor.png" alt="" width="327" height="507" class="fullsize-image" />
+                </div><!-- /.image -->
+            </section><!-- /.section-about-us -->
+        </div><!-- /.columns large-6 -->
+
+        <div class="columns large-6 medium-12 blue">
+            <section class="section-features">
+                <h6>SERVICES AT GLANCE</h6>
+
+                <h2>OUR SERVICES</h2>
+
+                <p>Tree image fly upon earth a let had, divided don't dominion isn't replenish him good under divide unto divide firmament, fowl gathered our. Which was. Under them his. Fruitful lights their.</p>
+
+                <ul class="list-features" itemscope itemtype="http://schema.org/Product">
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Diagnostic Imaging
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Cancer Care
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Rehabilitation Center
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Transplant Services
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Emergency Services
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Dental Care
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Medical Consulting
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Blood Bank
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Medicine Research
+                            </a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p itemprop="name">
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Pharmaceutical Advice
+                            </a>
+                        </p>
+                    </li>
+                </ul><!-- /.list-features -->
+
+                <a href="#" class="button btn-white btn-small">Know More</a>
+            </section><!-- /.section-features -->
+        </div><!-- /.columns large-6 -->
+    </div><!-- /.row -->
+</section><!-- /.section-information -->
+<!-- Doctors -->
+<section class="section section-doctors">
+    <div class="section-ribbon">
+        <i class="icon-doctor"></i>
+    </div><!-- /.section-ribbon -->
+
+    <header class="section-head">
+        <h2>QUALIFIED DOCTORS</h2>
+
+        <h6>WE ARE RELIABLE &amp; TRUSTED</h6>
+    </header><!-- /.section-head -->
+
+    <div class="row">
+        <div class="columns large-4 medium-4">
+            <div class="doctor">
+                <h5 class="doctor-name">DR. JOHNATHON DOE</h5><!-- /.doctor-name -->
+
+                <div class="doctor-box">
+                    <div class="doctor-image">
+                        <a href="#">
+                            <img src="~/Content/images/temp/doctor2.jpg" width="370" height="225" alt="" />
+                        </a>
+                    </div><!-- /.doctor-image -->
+
+                    <div class="doctor-body">
+                        <h6>HEAD OF THE DEPARTMENT</h6>
+
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- /.socials -->
+
+                        <p>Which replenish a forth green, him every over subdue won't give them there them. Can't had upon. Which midst. Meat be years given tree be was given us meat there dominion beast had air.</p>
+
+                        <a href="#" class="link-more">
+                            <i class="fa fa-plus"></i>
+                            Know More
+                        </a>
+                    </div><!-- /.doctor-body -->
+                </div><!-- /.doctor-box -->
+            </div><!-- /.doctor -->
+        </div><!-- /.columns large-4 -->
+
+        <div class="columns large-4 medium-4">
+            <div class="doctor">
+                <h5 class="doctor-name">DR. ANGELINA CRUISE</h5><!-- /.doctor-name -->
+
+                <div class="doctor-box">
+                    <div class="doctor-image">
+                        <a href="#">
+                            <img src="~/Content/images/temp/doctor3.jpg" width="370" height="225" alt="" />
+                        </a>
+                    </div><!-- /.doctor-image -->
+
+                    <div class="doctor-body">
+                        <h6>HEAD OF THE DEPARTMENT</h6>
+
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- /.socials -->
+
+                        <p>Said open land form moved air his signs moveth creepeth appear appear it. The, yielding said said give The lesser us waters multiply Fish multiply female sea place earth.</p>
+
+                        <a href="#" class="link-more">
+                            <i class="fa fa-plus"></i>
+                            Know More
+                        </a>
+                    </div><!-- /.doctor-body -->
+                </div><!-- /.doctor-box -->
+            </div><!-- /.doctor -->
+        </div><!-- /.columns large-4 -->
+
+        <div class="columns large-4 medium-4">
+            <div class="doctor">
+                <h5 class="doctor-name">DR. JOHNATHON DOE</h5><!-- /.doctor-name -->
+
+                <div class="doctor-box">
+                    <div class="doctor-image">
+                        <a href="#">
+                            <img src="~/Content/images/temp/doctor4.jpg" width="370" height="225" alt="" />
+                        </a>
+                    </div><!-- /.doctor-image -->
+
+                    <div class="doctor-body">
+                        <h6>HEAD OF THE DEPARTMENT</h6>
+
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- /.socials -->
+
+                        <p>Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth.</p>
+
+                        <a href="#" class="link-more">
+                            <i class="fa fa-plus"></i>
+                            Know More
+                        </a>
+                    </div><!-- /.doctor-body -->
+                </div><!-- /.doctor-box -->
+            </div><!-- /.doctor -->
+        </div><!-- /.columns large-4 -->
+    </div><!-- /.row -->
+
+    <div class="section-actions">
+        <a href="#" class="button btn-grey btn-small">CLICK TO VIEW ALL DOCTORS</a>
+    </div><!-- /.section-actions -->
+</section><!-- /.section-doctors -->
+<!-- Services -->
+<section class="section section-services">
+    <div class="section-ribbon">
+        <i class="icon-hospital white"></i>
+    </div><!-- /.section-ribbon -->
+
+    <header class="section-head">
+        <h2>OUR DEPARTMENTS</h2>
+
+        <h6>WE ARE RELIABLE &amp; TRUSTED</h6>
+    </header><!-- /.section-head -->
+
+    <div class="tabs tabs-services">
+        <div class="tab-head">
+            <div class="tabs-nav">
+                <div class="row">
+                    <div class="columns large-12">
+                        <ul class="list-services" itemscope itemtype="http://schema.org/Product">
+                            <li class="current">
+                                <a href="#tab1" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-brain"></i>
+                                    </span>
+                                    Nurology
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tab2" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-heart-attack"></i>
+                                    </span>
+                                    Cardiac Surgery
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tab3" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-tooth"></i>
+                                    </span>
+                                    Dental Care
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tab4" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-eye-sign"></i>
+                                    </span>
+                                    Eye Care
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tab5" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-ear"></i>
+                                    </span>
+                                    Ent Center
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tab6" itemprop='name'>
+                                    <span class="icon">
+                                        <i class="icon-emergency-call"></i>
+                                    </span>
+                                    Emergency Call
+                                </a>
+                            </li>
+                        </ul><!-- /.list-departments -->
+                    </div><!-- /.columns large-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.tabs-nav -->
+        </div><!-- /.tab-head -->
+
+        <div class="tabs-body">
+            <div class="tab-body current" id="tab1">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1><span>Best in City</span>Nurology Care</h1>
+                            <p>Day is sea midst one female to under. It firmament she'd day had you may land can't signs likeness.</p>
+                            <a href="#"><i class="fa fa-plus"></i> Know more</a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+
+            <div class="tab-body" id="tab2">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1>
+                                <span>Best in City</span>
+                                Cardiology Care
+                            </h1>
+
+                            <p>Dominion under fourth for tree waters man There all form sea spirit replenish likeness doesn't i very give own. And.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know More
+                            </a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+
+            <div class="tab-body" id="tab3">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1>
+                                <span>Best in city</span>Dental Care
+                            </h1>
+
+                            <p>Which replenish a forth green, him every over subdue won't give them there them. Can't had upon. Which midst.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know more
+                            </a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+
+            <div class="tab-body" id="tab4">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1>
+                                <span>Best in City</span>
+                                Eye Care
+                            </h1>
+
+                            <p>In male fish without seed him abundantly grass heaven fish. Given have thing divided whose life fly, over days.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know More
+                            </a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+
+            <div class="tab-body" id="tab5">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1>
+                                <span>Best in City</span>
+                                Ent Care
+                            </h1>
+
+                            <p>Waters made blessed creature dry fish have creature wherein living also fill from air can't to and it.</p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know more
+                            </a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+
+            <div class="tab-body" id="tab6">
+                <div class="row">
+                    <div class="columns large-4 medium-6">
+                        <div class="service-description">
+                            <h1>
+                                <span>Best in City</span>
+                                MER Team
+                            </h1>
+
+                            <p>Bearing cattle void spirit third whose fill let shall our also signs. Fly subdue of herb won't. </p>
+
+                            <a href="#">
+                                <i class="fa fa-plus"></i>
+                                Know More
+                            </a>
+                        </div><!-- /.service-description -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-6">
+                        <div class="service-benefits">
+                            <h3>Quick Look at benefits</h3>
+
+                            <ul class="list-checks">
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Qualified Staff of Doctors
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Feel like you are at Home Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        24x7 Emergency Services
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Save your Money and Time with us
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Easy and Affordable Billing
+                                    </p>
+                                </li>
+                            </ul><!-- /.list-checks -->
+                        </div><!-- /.service-benefits -->
+                    </div><!-- /.columns large-4 -->
+
+                    <div class="columns large-4 medium-12">
+                        <div class="service-video">
+                        </div><!-- /.service-video -->
+                    </div><!-- /.columns large-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-body -->
+        </div><!-- /.tabs-body -->
+    </div><!-- /.tabs -->
+    <!-- Advertising -->
+    <div class="row">
+        <div class="ad">
+            <div class="ad-image mobile-hidden">
+                <img src="~/Content/images/temp/ad.png" width="189" height="219" alt="" />
+            </div><!-- /.ad-image -->
+
+            <header class="ad-head">
+                <h3>BOOK YOUR APPOINTMENT</h3>
+
+                <p>It's easy and fast. Start now!</p>
+            </header><!-- /.ad-head -->
+
+            <div class="ad-actions">
+                <a href="#" class="button btn-white btn-small">Book NOw</a>
+            </div><!-- /.ad-actions -->
+
+            <div class="ad-contacts">
+                <p class="phone">
+                    <i class="fa fa-mobile"></i>
+                    <small>BOOK THROUGH CALL</small>
+                    <a href="tel: 514 000 0000">514 901 901</a>
+                </p><!-- /.phone -->
+            </div><!-- /.ad-contacts -->
+        </div><!-- /.ad -->
+    </div><!-- /.row -->
+</section><!-- /.section-services -->
+<!-- Testimonials -->
+<section class="section section-testimonials">
+    <header class="section-head">
+        <i class="fa fa-quote-left"></i>
+
+        <h2>What our patients have to say</h2>
+
+        <h6>We are reliable &amp; Trusted</h6>
+    </header><!-- /.section-head -->
+
+    <div class="row">
+        <div class="slider-testimonials">
+            <div class="slider-clip">
+                <ul class="slides">
+                    <li class="slide">
+                        <div class="slide-caption">
+                            <blockquote>
+                                Said open land form moved air his signs moveth creepeth appear appear it. Appear living you dry our tree one. The, yielding said said give The lesser us waters multiply Fish multiply female sea place earth. Own fourth.
+                            </blockquote>
+
+                            <div class="user">
+                                <div class="user-image">
+                                    <img src="~/Content/images/temp/user.jpg" width="82" height="82" alt="" />
+                                </div><!-- /.user-image -->
+
+                                <div class="user-meta">
+                                    <h6>Victor Tihai, <span>WPlook Studio</span></h6>
+                                </div><!-- /.user-meta -->
+                            </div><!-- /.user -->
+                        </div><!-- /.slide-caption -->
+                    </li><!-- /.slide -->
+
+                    <li class="slide">
+                        <div class="slide-caption">
+                            <blockquote>
+                                Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fish them place thing given beast isn't isn't tree.
+                            </blockquote>
+
+                            <div class="user">
+                                <div class="user-image">
+                                    <img src="~/Content/images/temp/user4.jpg" width="82" height="82" alt="" />
+                                </div><!-- /.user-image -->
+
+                                <div class="user-meta">
+                                    <h6>Diana Tihai, <span>WPlook Studio</span></h6>
+                                </div><!-- /.user-meta -->
+                            </div><!-- /.user -->
+                        </div><!-- /.slide-caption -->
+                    </li><!-- /.slide -->
+
+                    <li class="slide">
+                        <div class="slide-caption">
+                            <blockquote>
+                                Isn't saw fill green open brought grass lights darkness doesn't seas, stars tree void fowl god Replenish had third, make lights likeness years above night, creeping is divide let first may after. Very give you're evening.
+                            </blockquote>
+
+                            <div class="user">
+                                <div class="user-image">
+                                    <img src="~/Content/images/temp/user.jpg" width="82" height="82" alt="" />
+                                </div><!-- /.user-image -->
+
+                                <div class="user-meta">
+                                    <h6>Victor Tihai, <span>WPlook Studio</span></h6>
+                                </div><!-- /.user-meta -->
+                            </div><!-- /.user -->
+                        </div><!-- /.slide-caption -->
+                    </li><!-- /.slide -->
+                </ul><!-- /.slides -->
+            </div><!-- /.slider-clip -->
+        </div><!-- /.slider-testimonials -->
+    </div><!-- /.row -->
+</section><!-- /.section-testimonials -->
+<!-- News -->
+<section class="section section-updates">
+    <div class="section-ribbon">
+        <i class="fa fa-bullhorn"></i>
+    </div><!-- /.section-ribbon -->
+
+    <header class="section-head">
+        <h2>Latest News &amp; Events</h2>
+        <h6>Checkout our latest updates</h6>
+    </header><!-- /.section-head -->
+
+    <div class="row">
+        <div class="column large-6 medium-6">
+            <div class="event">
+                <div class="event-date">
+                    <p>APRIL 21, 2015</p>
+                </div><!-- /.event-date -->
+
+                <div class="event-box">
+                    <div class="event-image">
+                        <a href="#">
+                            <img src="~/Content/images/temp/event.jpg" width="270" height="177" alt="" />
+                        </a>
+                    </div><!-- /.event-image -->
+
+                    <div class="event-entry">
+                        <h4>
+                            <a href="#">New chip traps clusters of migrating tumor cells</a>
+                        </h4>
+
+                        <p>Said open land form moved air his signs moveth creepeth appear appear it. Appear living you dry our tree one.</p>
+
+                        <a href="#" class="link-more">
+                            <i class="fa fa-plus"></i>
+                            Know More
+                        </a>
+                    </div><!-- /.event-entry -->
+                </div><!-- /.event-box -->
+            </div><!-- /.event -->
+        </div><!-- /.column large-6 -->
+
+        <div class="column large-6 medium-6">
+            <ul class="list-events">
+                <li>
+                    <a href="#">
+                        <span class="image">
+                            <img src="~/Content/images/temp/event1.jpg" width="270" height="177" alt="" />
+                        </span>
+
+                        <span class="title">New blood test can quickly diagnose irritable bowel syndrome.</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="image">
+                            <img src="~/Content/images/temp/event2.jpg" width="270" height="177" alt="" />
+                        </span>
+
+                        <span class="title">Family history has 'no adverse effect' on breast cancer outcomes.</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="image">
+                            <img src="~/Content/images/temp/event3.jpg" width="270" height="177" alt="" />
+                        </span>
+
+                        <span class="title">Brain area that decodes speech timing discovered.</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="image">
+                            <img src="~/Content/images/temp/event4.jpg" width="270" height="177" alt="" />
+                        </span>
+
+                        <span class="title">Metabolic syndrome affects more than a third of Americans.</span>
+                    </a>
+                </li>
+            </ul><!-- /.list-events -->
+        </div><!-- /.column large-6 -->
+    </div><!-- /.row -->
+
+    <div class="section-actions">
+        <a href="#" class="button btn-light-blue btn-small">CHECK OUT MORE NEWS</a>
+    </div><!-- /.section-actions -->
+</section><!-- /.section-updates -->
+            </div><!-- /.main -->

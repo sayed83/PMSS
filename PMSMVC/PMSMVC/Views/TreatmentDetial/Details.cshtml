@@ -1,0 +1,82 @@
+﻿@model PMSMVC.Models.TreatmentDetial
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <table class="table">
+                <tr class="detail-row open">
+                    <td>
+                        <div class="table-detail">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 style="text-align:center">Treatment Details</h3>
+                                </div>
+
+                                <div class="col-md-offset-2 col-md-8">
+                                    <div class="space visible-xs"></div>
+
+                                    <div class="profile-user-info profile-user-info-striped">
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Treatment Name </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Treatment.TreatmentName)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Description </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Description)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Doctor ID </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Doctor.DoctorCardID)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> Patient ID </div>
+
+                                            <div class="profile-info-value">
+                                                <span>@Html.DisplayFor(model => model.Patient.PatCardID)</span>
+                                            </div>
+                                        </div>
+                                        @Html.HiddenFor(model => model.TreatmentDetailID)
+
+                                        <div class="profile-info-row">
+                                            <div class="profile-info-name"> &nbsp; </div>
+
+                                            <div class="profile-info-value">
+                                                @using (Html.BeginForm())
+                                                {
+                                                    @Html.AntiForgeryToken()
+
+                                                    <div class="form-action no-color">
+                                                        @Html.ActionLink("Edit","Edit", new { id = Model.TreatmentDetailID }) |
+                                                        @Html.ActionLink("Back to List", "Index")
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,117 @@
+﻿
+@model PMSMVC.Models.Patient
+<div class="add-patient-form">
+    @using (Html.BeginForm( new { @id="patientForm"}))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Name</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PatientName, new { htmlAttributes = new { @class = "col-xs-10 col-sm-5", @id="PatientName", @placeholder="Patient Name" } })
+                    @Html.ValidationMessageFor(model => model.PatientName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Age</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "col-xs-10 col-sm-5", @id="Age", @placeholder="Age" } })
+                    @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Gender</label>
+                <div class="col-md-10">
+                    <select name="Gender" class="form-control">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Phone</label>
+                <div class="col-md-10">
+                   @Html.EditorFor(model => model.ContactNumber, new { htmlAttributes = new { @class = "col-xs-10 col-sm-5",@id="ContactNumber", @placeholder="Contact Number" } })
+                @Html.ValidationMessageFor(model => model.ContactNumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Admission</label>
+                <div class="col-md-10">
+                    <input class="form-control" name="AdmissionDate" disabled="disabled" value="@DateTime.Now" placeholder="Patient Age" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Room</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("RoomID", null, htmlAttributes: new { @class = "col-xs-10 col-sm-5", @id="RoomID" })
+                    @Html.ValidationMessageFor(model => model.RoomID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input id="submit" type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@section CustomJs
+{
+    <script>
+        $(document).ready(function () {
+            $('#submit').click(function (e) {
+                e.preventDefault();
+                var data = {
+                    PatientName: $('#PatientName').val(),
+                    Age: $('#Age').val(),
+                    Gender: $('#Gender').val(),
+                    ContactNumber: $('#ContactNumber').val(),
+                    AdmissionDate: $('#AdmissionDate').val(),
+                    RoomID: $('#RoomID').val()
+
+                }
+                $.ajax({
+                    type: "post",
+                    url: "@Url.Action("Create", "Trainee")",
+                    data: data,
+                success: function (response) {
+                    alert("you are done");
+                }
+            });
+        });
+        });
+
+        function jQueryAjaxPost(form) {
+            $.validator.unobtrusive.parse(form);
+            if ($(form).valid()) {
+
+                var ajaxConfig = {
+                    type: "post",
+                    url: form.action,
+                    data: new FormData(form),
+                    success: function (response) {
+
+                    }
+
+                }
+                if ($(form).attr('enctype') == "multipart/form-data") {
+                    ajaxConfig["processData"] = false;
+                    ajaxConfig["contentType"] = false;
+                }
+
+                $.ajax(ajaxConfig);
+            }
+        }
+    </script>
+    
+}

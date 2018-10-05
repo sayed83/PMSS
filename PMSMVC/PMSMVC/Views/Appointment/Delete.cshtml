@@ -1,0 +1,81 @@
+﻿@model PMSMVC.Models.Appointment
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Appointment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ApmntName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApmntName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApmntPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApmntPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApmntPayment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApmntPayment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApmntDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApmntDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApmntMakeDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApmntMakeDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Approved)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Approved)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Doctor.DoctorCardID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Doctor.DoctorCardID)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
